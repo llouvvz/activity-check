@@ -1,0 +1,9 @@
+mkdir activity-check
+cd activity-check
+git init
+echo "# Activity Check" > README.md
+git add .
+git commit -m "My commit for activity requirement"
+git branch -M main
+git remote add origin https://github.com/llouvvz/activity-check.git
+git push -u origin main
